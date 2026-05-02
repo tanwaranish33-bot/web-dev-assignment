@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodeCraft — Web Development Mastery</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── CURSOR ── -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <!-- ── NAV ── -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">Code<span>Craft</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#tech">Tech Stack</a></li>
+      <li><a href="#curriculum">Curriculum</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+    </ul>
+    <a href="#pricing" class="btn btn-nav">Enroll Now</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ── MOBILE MENU ── -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" class="mob-link">About</a>
+    <a href="#tech" class="mob-link">Tech Stack</a>
+    <a href="#curriculum" class="mob-link">Curriculum</a>
+    <a href="#pricing" class="mob-link">Pricing</a>
+    <a href="#pricing" class="btn btn-cta" style="margin-top:1.5rem">Enroll Now</a>
+  </div>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-noise"></div>
+
+    <div class="hero-badge reveal">
+      <span class="badge-dot"></span> Now enrolling · Spring 2026
+    </div>
+
+    <h1 class="hero-title reveal">
+      Build<br/>
+      <span class="outline-text">The</span><br/>
+      Web.
+    </h1>
+
+    <p class="hero-sub reveal">
+      A complete, project-driven web development program — HTML, CSS, JavaScript,
+      Python back-ends, databases, and deployment. Go from zero to shipping real products.
+    </p>
+
+    <div class="hero-cta reveal">
+      <a href="#curriculum" class="btn btn-cta">Explore Curriculum</a>
+      <a href="#tech" class="btn btn-ghost">View Tech Stack</a>
+    </div>
+
+    <div class="hero-stats reveal">
+      <div class="stat"><span class="stat-num" data-target="240">0</span><span class="stat-label">Hours of Content</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-num" data-target="18">0</span><span class="stat-label">Real Projects</span></div>
+      <div class="stat-div"></div>
+      <div class="stat"><span class="stat-num" data-target="4200">0</span><span class="stat-label">Students Enrolled</span></div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ── MARQUEE ── -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span>HTML5</span><span class="dot">◆</span>
+      <span>CSS3</span><span class="dot">◆</span>
+      <span>JavaScript</span><span class="dot">◆</span>
+      <span>Python</span><span class="dot">◆</span>
+      <span>React</span><span class="dot">◆</span>
+      <span>Node.js</span><span class="dot">◆</span>
+      <span>SQL</span><span class="dot">◆</span>
+      <span>Git & GitHub</span><span class="dot">◆</span>
+      <span>REST APIs</span><span class="dot">◆</span>
+      <span>Flask</span><span class="dot">◆</span>
+      <span>Figma</span><span class="dot">◆</span>
+      <span>Deployment</span><span class="dot">◆</span>
+      <!-- duplicate for seamless loop -->
+      <span>HTML5</span><span class="dot">◆</span>
+      <span>CSS3</span><span class="dot">◆</span>
+      <span>JavaScript</span><span class="dot">◆</span>
+      <span>Python</span><span class="dot">◆</span>
+      <span>React</span><span class="dot">◆</span>
+      <span>Node.js</span><span class="dot">◆</span>
+      <span>SQL</span><span class="dot">◆</span>
+      <span>Git & GitHub</span><span class="dot">◆</span>
+      <span>REST APIs</span><span class="dot">◆</span>
+      <span>Flask</span><span class="dot">◆</span>
+      <span>Figma</span><span class="dot">◆</span>
+      <span>Deployment</span><span class="dot">◆</span>
+    </div>
+  </div>
+
+  <!-- ── ABOUT ── -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="section-tag reveal">// About the Program</p>
+          <h2 class="section-title reveal">Not just tutorials.<br/>Real engineering.</h2>
+          <p class="body-text reveal">
+            CodeCraft is built for people who want to actually build things. Every module
+            combines concise theory with hands-on projects. You'll ship working apps, 
+            not just watch videos.
+          </p>
+          <p class="body-text reveal">
+            Our curriculum mirrors real industry workflows — version control, code reviews,
+            agile sprints, and deployment pipelines are baked in from day one.
+          </p>
+          <a href="#curriculum" class="btn btn-cta reveal" style="margin-top:2rem">See Full Curriculum →</a>
+        </div>
+        <div class="about-cards">
+          <div class="about-card reveal">
+            <div class="about-card-icon">⚡</div>
+            <h3>Project-First</h3>
+            <p>Build a new real-world project every two weeks. Your portfolio grows as you learn.</p>
+          </div>
+          <div class="about-card reveal">
+            <div class="about-card-icon">🧠</div>
+            <h3>Mentor Support</h3>
+            <p>Weekly live code reviews with senior engineers. Get unstuck, fast.</p>
+          </div>
+          <div class="about-card reveal">
+            <div class="about-card-icon">🌐</div>
+            <h3>Full-Stack Coverage</h3>
+            <p>Front-end, back-end, databases, APIs, and deployment — all in one program.</p>
+          </div>
+          <div class="about-card reveal">
+            <div class="about-card-icon">🎯</div>
+            <h3>Job-Ready</h3>
+            <p>Resume reviews, mock interviews, and access to our hiring partner network.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TECH STACK ── -->
+  <section class="tech section" id="tech">
+    <div class="container">
+      <p class="section-tag reveal" style="text-align:center">// Tech Stack</p>
+      <h2 class="section-title reveal" style="text-align:center">Every tool you need.<br/>Nothing you don't.</h2>
+
+      <div class="tech-grid">
+
+        <div class="tech-card reveal" data-color="#E44D26">
+          <div class="tech-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 4L11.5 42L24 46L36.5 42L40 4H8Z" fill="#E44D26"/><path d="M24 43.2V8H36.7L34 38.7L24 43.2Z" fill="#F16529"/><path d="M14 14H24V20H20.6L21 24H24V30H15.8L14 14Z" fill="white"/><path d="M24 14H34L33 24H24V30H29.5L29 34L24 35.5V43.2L34 38.7L35.5 20H24V14Z" fill="white"/></svg>
+          </div>
+          <h3>HTML5</h3>
+          <p>Semantic structure, accessibility, and modern HTML APIs.</p>
+          <div class="tech-tag">Foundation</div>
+        </div>
+
+        <div class="tech-card reveal" data-color="#264DE4">
+          <div class="tech-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 4L11.5 42L24 46L36.5 42L40 4H8Z" fill="#264DE4"/><path d="M24 43.2V8H36.7L34 38.7L24 43.2Z" fill="#2965F1"/><path d="M14 14H24V20H20.5L21 24H24V30H15.8L14 14Z" fill="white"/><path d="M24 14H34L33 24H24V30H29.5L29 34L24 35.5V43.2L34 38.7L35.5 20H24V14Z" fill="white"/></svg>
+          </div>
+          <h3>CSS3</h3>
+          <p>Flexbox, Grid, animations, custom properties, and responsive design.</p>
+          <div class="tech-tag">Styling</div>
+        </div>
+
+        <div class="tech-card reveal" data-color="#F7DF1E">
+          <div class="tech-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" fill="#F7DF1E"/><path d="M13 36.5L16.8 34.2C17.5 35.5 18.1 36.6 19.7 36.6C21.2 36.6 22.2 36 22.2 33.6V18H26.6V33.7C26.6 38.3 23.9 40.5 19.9 40.5C16.3 40.5 14.2 38.6 13 36.5Z" fill="#323330"/><path d="M29 36L32.8 33.8C33.7 35.4 34.9 36.6 37.1 36.6C38.9 36.6 40 35.7 40 34.5C40 33 38.9 32.5 36.8 31.6L35.7 31.1C32.4 29.7 30.2 28 30.2 24.1C30.2 20.5 32.9 17.8 37.1 17.8C40 17.8 42.1 18.8 43.6 21.5L40 23.9C39.2 22.4 38.3 21.8 37.1 21.8C35.8 21.8 35 22.6 35 23.9C35 25.5 35.8 26 37.8 26.8L38.9 27.3C42.8 29 45 30.6 45 34.6C45 38.9 41.6 41.2 37.1 41.2C32.7 41.2 29.9 39 29 36Z" fill="#323330"/></svg>
+          </div>
+          <h3>JavaScript</h3>
+          <p>ES6+, DOM manipulation, async/await, APIs, and modern JS patterns.</p>
+          <div class="tech-tag">Core Language</div>
+        </div>
+
+        <div class="tech-card reveal" data-color="#3776AB">
+          <div class="tech-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 4C13 4 13.5 9 13.5 9L13.5 14.1H24.2V15.6H9.5C9.5 15.6 4 15 4 26.1C4 37.2 8.6 36.9 8.6 36.9H11.8V31.6C11.8 31.6 11.6 27 16.3 27H26.9C26.9 27 31.2 27.1 31.2 22.9V10.8C31.2 10.8 31.9 4 24 4ZM18.9 8.3C19.9 8.3 20.7 9.1 20.7 10.1C20.7 11.1 19.9 11.9 18.9 11.9C17.9 11.9 17.1 11.1 17.1 10.1C17.1 9.1 17.9 8.3 18.9 8.3Z" fill="url(#pyblue)"/><path d="M24.1 44C35.1 44 34.6 39 34.6 39L34.6 33.9H23.9V32.4H38.6C38.6 32.4 44 33 44 21.9C44 10.8 39.4 11.1 39.4 11.1H36.2V16.4C36.2 16.4 36.4 21 31.7 21H21.1C21.1 21 16.8 20.9 16.8 25.1V37.2C16.8 37.2 16.1 44 24.1 44ZM29.2 39.7C28.2 39.7 27.4 38.9 27.4 37.9C27.4 36.9 28.2 36.1 29.2 36.1C30.2 36.1 31 36.9 31 37.9C31 38.9 30.2 39.7 29.2 39.7Z" fill="url(#pyyellow)"/><defs><linearGradient id="pyblue" x1="4" y1="4" x2="31.2" y2="27" gradientUnits="userSpaceOnUse"><stop stop-color="#387EB8"/><stop offset="1" stop-color="#366994"/></linearGradient><linearGradient id="pyyellow" x1="16.8" y1="21" x2="44" y2="44" gradientUnits="userSpaceOnUse"><stop stop-color="#FFE052"/><stop offset="1" stop-color="#FFC331"/></linearGradient></defs></svg>
+          </div>
+          <h3>Python</h3>
+          <p>Back-end logic, automation scripts, data processing, and Flask APIs.</p>
+          <div class="tech-tag">Back-End</div>
+        </div>
+
+        <div class="tech-card reveal" data-color="#61DAFB">
+          <div class="tech-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" r="4" fill="#61DAFB"/><ellipse cx="24" cy="24" rx="20" ry="7" stroke="#61DAFB" stroke-width="2" fill="none"/><ellipse cx="24" cy="24" rx="20" ry="7" stroke="#61DAFB" stroke-width="2" fill="none" transform="rotate(60 24 24)"/><ellipse cx="24" cy="24" rx="20" ry="7" stroke="#61DAFB" stroke-width="2" fill="none" transform="rotate(120 24 24)"/></svg>
+          </div>
+          <h3>React</h3>
+          <p>Component architecture, hooks, state management, and routing.</p>
+          <div class="tech-tag">Framework</div>
+        </div>
+
+        <div class="tech-card reveal" data-color="#68A063">
+          <div class="tech-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.8 4C13.1 4.5 5.1 12.7 4.1 22.4C3 33.3 10.6 42.8 21.1 44.6C22 44.8 22.4 44.3 22.4 43.7V40.3C22.4 40.3 21.9 40.4 21.2 40.4C18.8 40.4 17.7 38.4 17.5 37.4C17.3 36.8 16.9 36.3 16.4 35.9C16 35.7 15.3 35.5 15.3 35C15.3 34.2 16.2 34.2 16.6 34.2C17.9 34.2 19 35.4 19.5 36.2C20.3 37.5 21.4 37.9 21.9 37.9C22.6 37.9 23 37.7 23.3 37.5C23.7 35.9 24.6 34.5 25.8 33.4C20.5 32.6 17.5 29.9 17.5 25.2C17.5 22.9 18.4 20.8 20 19.2C19.7 18.4 19.3 16.8 20 15.2C20 15.2 21.7 15 23.5 16.4C24.7 16.1 25.9 15.9 27.1 15.9C28.3 15.9 29.5 16.1 30.7 16.4C32.5 15 34.2 15.2 34.2 15.2C34.9 16.8 34.5 18.4 34.2 19.2C35.8 20.8 36.7 22.9 36.7 25.2C36.7 29.9 33.7 32.6 28.4 33.4C29.9 34.8 30.9 36.7 30.9 39V43.7C30.9 44.4 31.4 44.8 32.2 44.6C40.3 41.9 46 34.4 46 25.5C46 13.7 35.6 3.4 22.8 4Z" fill="#68A063"/></svg>
+          </div>
+          <h3>Git & GitHub</h3>
+          <p>Version control, branching, pull requests, and collaborative coding.</p>
+          <div class="tech-tag">Dev Tools</div>
+        </div>
+
+        <div class="tech-card reveal" data-color="#336791">
+          <div class="tech-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><ellipse cx="24" cy="12" rx="16" ry="6" fill="#336791"/><rect x="8" y="12" width="32" height="4" fill="#336791"/><ellipse cx="24" cy="24" rx="16" ry="6" fill="#336791"/><rect x="8" y="24" width="32" height="4" fill="#336791"/><ellipse cx="24" cy="36" rx="16" ry="6" fill="#336791"/><ellipse cx="24" cy="12" rx="16" ry="6" fill="none" stroke="#5B9DC9" stroke-width="1.5"/><ellipse cx="24" cy="24" rx="16" ry="6" fill="none" stroke="#5B9DC9" stroke-width="1.5"/><ellipse cx="24" cy="36" rx="16" ry="6" fill="none" stroke="#5B9DC9" stroke-width="1.5"/></svg>
+          </div>
+          <h3>SQL / PostgreSQL</h3>
+          <p>Relational databases, queries, joins, indexing, and data modeling.</p>
+          <div class="tech-tag">Database</div>
+        </div>
+
+        <div class="tech-card reveal" data-color="#FF6B35">
+          <div class="tech-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="4" width="40" height="40" rx="4" fill="#FF6B35"/><text x="24" y="32" font-size="20" font-family="monospace" font-weight="bold" fill="white" text-anchor="middle">API</text></svg>
+          </div>
+          <h3>REST APIs</h3>
+          <p>Design, build, and consume RESTful APIs with authentication and rate limiting.</p>
+          <div class="tech-tag">Integration</div>
+        </div>
+
+        <div class="tech-card reveal" data-color="#00D8FF">
+          <div class="tech-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="4" width="40" height="40" rx="6" fill="#1A1A2E"/><text x="24" y="26" font-size="10" font-family="monospace" fill="#00D8FF" text-anchor="middle">Deploy</text><rect x="10" y="30" width="28" height="3" rx="1.5" fill="#00D8FF" opacity=".5"/><rect x="10" y="35" width="20" height="3" rx="1.5" fill="#00D8FF" opacity=".3"/></svg>
+          </div>
+          <h3>Deployment</h3>
+          <p>Ship to production with Vercel, Railway, and Docker fundamentals.</p>
+          <div class="tech-tag">DevOps</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CURRICULUM ── -->
+  <section class="curriculum section" id="curriculum">
+    <div class="container">
+      <p class="section-tag reveal" style="text-align:center">// Curriculum</p>
+      <h2 class="section-title reveal" style="text-align:center">24 weeks.<br/>Everything covered.</h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-num">01</div>
+          <div class="timeline-content">
+            <h3>Foundations <span class="weeks">Weeks 1–4</span></h3>
+            <p>HTML semantics, CSS layouts, Flexbox, Grid, responsive design, and your first static websites.</p>
+            <div class="timeline-tags">
+              <span>HTML5</span><span>CSS3</span><span>Figma</span><span>Git</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-num">02</div>
+          <div class="timeline-content">
+            <h3>JavaScript Essentials <span class="weeks">Weeks 5–8</span></h3>
+            <p>Variables, functions, DOM, events, fetch API, localStorage, and building interactive UIs.</p>
+            <div class="timeline-tags">
+              <span>JavaScript ES6+</span><span>DOM API</span><span>Fetch</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-num">03</div>
+          <div class="timeline-content">
+            <h3>Python & Back-End <span class="weeks">Weeks 9–13</span></h3>
+            <p>Python fundamentals, Flask web server, routing, templating, and server-side rendering.</p>
+            <div class="timeline-tags">
+              <span>Python</span><span>Flask</span><span>Jinja2</span><span>REST</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-num">04</div>
+          <div class="timeline-content">
+            <h3>Databases & SQL <span class="weeks">Weeks 14–16</span></h3>
+            <p>Relational database design, SQL queries, PostgreSQL, ORM with SQLAlchemy, and migrations.</p>
+            <div class="timeline-tags">
+              <span>PostgreSQL</span><span>SQLAlchemy</span><span>SQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-num">05</div>
+          <div class="timeline-content">
+            <h3>React & Modern Front-End <span class="weeks">Weeks 17–20</span></h3>
+            <p>Components, hooks, React Router, context API, and connecting React to your Python back-end.</p>
+            <div class="timeline-tags">
+              <span>React 18</span><span>Hooks</span><span>Router</span><span>Context</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-num">06</div>
+          <div class="timeline-content">
+            <h3>Capstone & Deployment <span class="weeks">Weeks 21–24</span></h3>
+            <p>Build and ship your full-stack capstone project. Authentication, CI/CD, and production deployment.</p>
+            <div class="timeline-tags">
+              <span>Docker</span><span>Vercel</span><span>Railway</span><span>Auth</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TESTIMONIALS ── -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <p class="section-tag reveal" style="text-align:center">// Student Stories</p>
+      <h2 class="section-title reveal" style="text-align:center">They shipped.<br/>So will you.</h2>
+
+      <div class="testi-grid">
+        <div class="testi-card reveal">
+          <p class="testi-quote">"I went from complete beginner to landing a front-end job in 7 months. The project-based structure made all the difference."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">AK</div>
+            <div>
+              <strong>Aditya Kumar</strong>
+              <span>Front-End Developer @ Razorpay</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <p class="testi-quote">"The Python + Flask module was incredible. I built a full API for my startup in week 11. Mentors were always available."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">SR</div>
+            <div>
+              <strong>Sneha Reddy</strong>
+              <span>Full-Stack Dev & Founder</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <p class="testi-quote">"Best investment I made. The curriculum is incredibly up-to-date and the community keeps you accountable throughout."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">MJ</div>
+            <div>
+              <strong>Mohammed Jaleel</strong>
+              <span>Software Engineer @ Swiggy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PRICING ── -->
+  <section class="pricing section" id="pricing">
+    <div class="container">
+      <p class="section-tag reveal" style="text-align:center">// Pricing</p>
+      <h2 class="section-title reveal" style="text-align:center">Pick your path.</h2>
+
+      <div class="pricing-grid">
+        <div class="pricing-card reveal">
+          <div class="pricing-label">Self-Paced</div>
+          <div class="pricing-price">₹14,999</div>
+          <div class="pricing-period">one-time · lifetime access</div>
+          <ul class="pricing-features">
+            <li>✓ All 240+ hours of content</li>
+            <li>✓ 18 project templates</li>
+            <li>✓ Community Discord</li>
+            <li>✓ Certificate of completion</li>
+            <li class="dim">✗ Live mentorship sessions</li>
+            <li class="dim">✗ Job placement support</li>
+          </ul>
+          <a href="#" class="btn btn-ghost" style="width:100%;text-align:center">Get Started</a>
+        </div>
+
+        <div class="pricing-card featured reveal">
+          <div class="pricing-badge">Most Popular</div>
+          <div class="pricing-label">Mentored</div>
+          <div class="pricing-price">₹29,999</div>
+          <div class="pricing-period">one-time · lifetime access</div>
+          <ul class="pricing-features">
+            <li>✓ Everything in Self-Paced</li>
+            <li>✓ Weekly live code reviews</li>
+            <li>✓ 1-on-1 mentor sessions (×4)</li>
+            <li>✓ Resume & LinkedIn review</li>
+            <li>✓ Mock technical interviews</li>
+            <li>✓ Hiring partner network access</li>
+          </ul>
+          <a href="#" class="btn btn-cta" style="width:100%;text-align:center">Enroll Now</a>
+        </div>
+
+        <div class="pricing-card reveal">
+          <div class="pricing-label">Corporate / Teams</div>
+          <div class="pricing-price">Custom</div>
+          <div class="pricing-period">per seat · volume pricing</div>
+          <ul class="pricing-features">
+            <li>✓ Everything in Mentored</li>
+            <li>✓ Dedicated cohort manager</li>
+            <li>✓ Custom curriculum modules</li>
+            <li>✓ Progress dashboards</li>
+            <li>✓ Invoice & GST billing</li>
+            <li>✓ SLA & support agreement</li>
+          </ul>
+          <a href="#" class="btn btn-ghost" style="width:100%;text-align:center">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA BAND ── -->
+  <section class="cta-band">
+    <div class="container">
+      <h2 class="reveal">Ready to start building?</h2>
+      <p class="reveal">Join 4,200+ students already shipping real products.</p>
+      <a href="#pricing" class="btn btn-cta reveal">Enroll Today →</a>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="nav-logo">Code<span>Craft</span></div>
+        <p>Full-stack web development for the real world.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <strong>Program</strong>
+          <a href="#about">About</a>
+          <a href="#tech">Tech Stack</a>
+          <a href="#curriculum">Curriculum</a>
+        </div>
+        <div class="footer-col">
+          <strong>Company</strong>
+          <a href="#">Blog</a>
+          <a href="#">Careers</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="footer-col">
+          <strong>Legal</strong>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Refund Policy</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <span>© 2026 CodeCraft. All rights reserved.</span>
+      <span>Made with ♥ for developers</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
